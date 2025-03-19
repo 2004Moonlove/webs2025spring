@@ -1,0 +1,14 @@
+h1 {
+    text-align: left;
+    font-size: 30px;
+    color: brown;
+}
+
+/* li{
+    margin-block: 700px;
+} */
+
+.photo{
+    width: 700px;
+    height: 500px;
+}
