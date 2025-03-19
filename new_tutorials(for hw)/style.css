@@ -1,5 +1,9 @@
+/* .selector{
+    background-image: url("./生活照.jpg");
+} */
 body{
     background-color:beige;
+    background-image: url("./生活照.jpg");
 }
 
 img{
