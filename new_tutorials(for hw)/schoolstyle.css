@@ -1,12 +1,25 @@
 h1 {
     text-align: left;
     font-size: 30px;
-    color: brown;
+    color: black;
 }
 
 /* li{
     margin-block: 700px;
 } */
+
+
+section {
+    padding: 10px;
+    border: 10px solid hotpink;
+    inline-size: 100px;
+  }
+  
+  h3 {
+    inline-size: 100%;
+    border: 20px solid forestgreen;
+    padding: 20px;
+  }
 
 .photo{
     width: 700px;
