@@ -1,6 +1,33 @@
-body {
+.back {
     /* background-color: bisque; */
-    /* background-image: url("./生活照.jpg"); */
+    /* background-image: url("./生活照.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 2%;
+    padding: 5%; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./生活照.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.5; /* 控制透明度 */
+    z-index: -1; /* 放到最底层 */
+}
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+  }
+
+img{
+    width: 90%;
+    max-width: 700px;
 }
 
 /* horizontal_bar */
