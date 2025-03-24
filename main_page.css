@@ -1,0 +1,36 @@
+body {
+    /* background-color: bisque; */
+    /* background-image: url("./生活照.jpg"); */
+}
+
+/* horizontal_bar */
+
+#horizontal_bar{
+    float: left;
+    list-style-type: none;
+    background-color: rgb(45, 41, 37);
+    width: 70%;
+    border-radius: 10%;
+}
+
+#horizontal_bar li{
+    margin: 20px;
+}
+
+#all{
+    float: left;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+.other{
+    float: left;
+    margin-left: 5px;
+    background-color: lightgray;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+#below {
+    clear:both;
+}
