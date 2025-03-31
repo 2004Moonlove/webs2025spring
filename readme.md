@@ -10,9 +10,9 @@ And for my life part, I  want to include my experience during schools like the c
 ## Introduction
 This web project is to build a personal website that introduces myself in a clean, interactive, and visually engaging format. At the top of the page, there will be a large title with my name "Yang Ye", alongside a small profile photo to highlight my identity.
 On the top side of the page, there will be a vertical navigation bar that guides visitors to different sections: About Me, Photos, and My Life. Each section will be clickable and dynamically load different content on the same page.
-### The About Me section will introduce who I am, my background, and my personality.
-### The Photos section will showcase some of my daily moments, travel memories, and fun snapshots with friends.
-### The My Life section will include details of my school experience: such as clubs I joined, research I participated in, and other memorable activities.
+- The About Me section will introduce who I am, my background, and my personality.
+- The Photos section will showcase some of my daily moments, travel memories, and fun snapshots with friends.
+- The My Life section will include details of my school experience: such as clubs I joined, research I participated in, and other memorable activities.
 
 In the My School part under “My Life,” I will show my academic journey from high school to college, including names of my schools and visual elements that help tell my story.
 
