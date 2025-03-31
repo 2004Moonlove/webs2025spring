@@ -24,5 +24,9 @@ function add_event_listener() {
 }
 
 function update_all(){
+    about_me.style.display = "block";
+    my_life_refer.style.display = "none";
+    photos.style.display = "none";
+    my_school_refer.style.display = "none";
 
 }

@@ -25,9 +25,31 @@
     padding: 50px;
   }
 
-img{
+#learning{
     width: 90%;
     max-width: 700px;
+}
+
+#长图{
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+
+#横图加州{
+    float: left;
+    width: 55%;
+    padding: 5px;
+
+}
+
+
+
+#横图滑雪{
+    float: left;
+    width: 55%;
+    padding: 5px;
+
 }
 
 /* horizontal_bar */
@@ -56,6 +78,10 @@ img{
     background-color: lightgray;
     border-radius: 20%;
     margin-bottom: 15px;
+}
+
+#school{
+    clear: both;
 }
 
 #below {
