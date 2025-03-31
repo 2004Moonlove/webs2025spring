@@ -43,13 +43,37 @@
 
 }
 
-
-
 #横图滑雪{
     float: left;
     width: 55%;
-    padding: 5px;
+    padding: 10px;
 
+}
+
+br{
+    clear: both;
+}
+
+#left{
+    float: left;
+    width: 55%;
+    padding: 5px;
+}
+#left img{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+/* #树{
+    
+}
+#粉色{
+    
+} */
+#主持人{
+    float: left;
+    width: 35%;
+    padding: 15px;
 }
 
 /* horizontal_bar */
