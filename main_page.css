@@ -20,11 +20,14 @@
     z-index: -1; /* 放到最底层 */
 }
 .content {
+    /* 背景 */
     position: relative;
     z-index: 1;
     padding: 50px;
   }
 
+
+/* image  */
 #learning{
     width: 90%;
     max-width: 700px;
@@ -35,21 +38,18 @@
     width: 40%;
     padding: 5px;
 }
-
 #横图加州{
     float: left;
     width: 55%;
     padding: 5px;
 
 }
-
 #横图滑雪{
     float: left;
     width: 55%;
     padding: 10px;
 
 }
-
 br{
     clear: both;
 }
@@ -78,6 +78,7 @@ br{
 
 /* horizontal_bar */
 
+
 #horizontal_bar{
     float: left;
     list-style-type: none;
@@ -90,10 +91,13 @@ br{
     margin: 20px;
 }
 
+/* navigation bar */
 #all{
     float: left;
     border-radius: 20%;
     margin-bottom: 15px;
+    font-size: large;
+    /* width: 20%; */
 }
 
 .other{
@@ -102,6 +106,8 @@ br{
     background-color: lightgray;
     border-radius: 20%;
     margin-bottom: 15px;
+    width: 18%;
+    font-size: larger;
 }
 
 #school{
