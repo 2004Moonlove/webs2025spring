@@ -12,8 +12,8 @@
 
   <div class="content">
     <header>
-      <h1>Welcome to Yang's page</h1>
-      <p>Hi! Nice to meet you!</p>
+      <h1 class="artistic-title">Welcome to Yang's Page</h1>
+      <p id="hello">Hi! Nice to meet you!</p>
     </header>
     <main>
       <!-- horizontal bar -->
@@ -39,7 +39,7 @@
         </ul>
       </div>
 
-      <div id="below">
+      <div id="below" class="section">
         <div id="about_me_all">
           <section>
             <h2>About me</h2>
@@ -61,15 +61,19 @@
         <div id="photos_all">
           <h2>My Photos</h2>
           <p>Here are some photos from my daily life:</p>
-          <img src="./image/长图.jpg" alt="长图" id="长图">
-          <img src="./image/横图加州.jpg" alt="横图加州" id="横图加州">
-          <img src="./image/横图滑雪.jpg" alt="横图滑雪" id="横图滑雪">
-          <br>
-          <div id="left">
-            <img src="./image/树.jpg" alt="" id="树">
-            <img src="./image/粉色.jpg" alt="" id="粉色">
+
+          <div class="masonry-gallery">
+            <img src="./image/长图.jpg" alt="长图" id="长图">
+            <img src="./image/横图加州.jpg" alt="横图加州" id="横图加州">
+            <img src="./image/横图滑雪.jpg" alt="横图滑雪" id="横图滑雪">
+            <br>
+            <div id="left">
+              <img src="./image/树.jpg" alt="" id="树">
+              <img src="./image/粉色.jpg" alt="" id="粉色">
+            </div>
+            <img src="./image/主持人.jpg" alt="" id="主持人">
           </div>
-          <img src="./image/主持人.jpg" alt="" id="主持人">
+
 
         </div>
 
@@ -177,7 +181,7 @@
 
 
 
-      <section id="My_school">
+      <section id="My_school" class="section">
         <h2>My School</h2>
         <p>Here's a look at my academic journey, from high school to university:</p>
 
@@ -216,7 +220,30 @@
             <section>
               <h3>High school: Hong Ling</h3>
             </section>
-            <p>红岭中学是深圳市一所享有盛誉的<span>重点</span>中学，以其卓越的教学质量和丰富的校园文化而闻名...</p>
+            <p>
+              <strong>Hongling High School</strong> is a prestigious key secondary school located in Shenzhen, China,
+              renowned for its <strong>excellent academic quality</strong> and <strong>vibrant campus culture</strong>.
+            </p>
+
+            <p>
+              The school is equipped with <strong>advanced teaching facilities</strong> and supported by a
+              <strong>highly experienced and dedicated faculty</strong>. It is committed to cultivating well-rounded
+              students with a strong <strong>global perspective</strong> and <strong>innovative mindset</strong>.
+            </p>
+
+            <p>
+              With a strong focus on <strong>holistic education</strong>, Hongling encourages students to thrive across
+              <strong>academics, sports, and the arts</strong>. Its students have achieved <strong>outstanding
+                results</strong> in various municipal, provincial, and national competitions.
+            </p>
+
+            <p>
+              Guided by the school motto <strong>“Virtue, Scholarship, and the Pursuit of Excellence”</strong>, Hongling
+              strives not only to deliver knowledge, but also to nurture students with a strong sense of
+              <strong>responsibility, leadership, and creativity</strong>, empowering them to become future-ready
+              individuals.
+            </p>
+
             <img src="./image/HL.jpg" alt="红岭中学" class="photo">
             <button class="back-button" onclick="backToCards()">Back</button>
           </div>
@@ -224,7 +251,33 @@
             <section>
               <h3>University: Sichuan University</h3>
             </section>
-            <p>四川大学位于中国四川省成都市，是一所历史悠久、学科齐全的<span>“双一流”</span>重点高校...</p>
+            <p>
+            <p>
+              <strong>Sichuan University</strong> is a prestigious and comprehensive university located in Chengdu,
+              Sichuan Province, China. It is recognized as a key institution under China's national <strong>“Double
+                First-Class”</strong> initiative.
+            </p>
+
+            <p>
+              The university was formed through the merger of the former Sichuan University, the former Chengdu
+              University of Science and Technology, and the former West China University of Medical Sciences. It offers
+              a wide range of disciplines, including <strong>liberal arts, science, engineering, and medicine</strong>,
+              and ranks among the top universities in China.
+            </p>
+
+            <p>
+              With the motto <strong>“Embrace All Streams, Hold Great Capacity”</strong>, Sichuan University emphasizes
+              both <strong>academic innovation</strong> and <strong>talent cultivation</strong>. It is home to numerous
+              <strong>national key laboratories</strong> and research centers, fostering cutting-edge research across
+              disciplines.
+            </p>
+
+            <p>
+              The campus is known for its beautiful environment and rich cultural heritage. Over the years, the
+              university has produced a large number of <strong>highly qualified graduates</strong> and enjoys a strong
+              reputation both in China and internationally.
+            </p>
+
             <img src="./image/SICHuan.jpg" alt="四川大学" class="photo">
             <button class="back-button" onclick="backToCards()">Back</button>
           </div>
@@ -232,7 +285,30 @@
             <section>
               <h3>University: University of Pittsburgh</h3>
             </section>
-            <p>匹兹堡大学(Pitt)是美国著名研究型大学之一，在医学和工程方面尤其杰出...</p>
+            <p>
+              The <strong>University of Pittsburgh</strong> (commonly known as <strong>Pitt</strong>) is a
+              world-renowned research university located in Pittsburgh, Pennsylvania, USA. Founded in
+              <strong>1787</strong>, it boasts a long history and a strong academic reputation.
+            </p>
+
+            <p>
+              As one of the top public universities in the United States, Pitt is widely recognized for its excellence
+              in <strong>medicine, engineering, computer science, business, and law</strong>. It is especially
+              distinguished in the fields of <strong>medical and biomedical research</strong>, with its affiliated
+              <strong>University of Pittsburgh Medical Center (UPMC)</strong> ranked among the world’s leading
+              healthcare institutions.
+            </p>
+
+            <p>
+              Pitt embraces a philosophy that combines <strong>innovation with practical experience</strong>, offering
+              students a wealth of opportunities in <strong>research and internships</strong> across disciplines.
+            </p>
+
+            <p>
+              With its <strong>inclusive academic environment</strong> and <strong>beautiful campus</strong>, Pitt
+              attracts outstanding students from all over the world who are eager to pursue knowledge, collaboration,
+              and global impact.
+            </p>
             <img src="./image/edb754511cf8bdb395ae262d6b0633e.jpg" alt="Pitt" class="photo">
             <button class="back-button" onclick="backToCards()">Back</button>
           </div>
@@ -240,46 +316,60 @@
 
       </section>
 
-      <section id="my_life_section" class="section" >
+      <section id="my_life_section" class="section">
         <h2>Experience</h2>
-        <p>Here's a glimpse into my vibrant university life — from research and internships to clubs and travel experiences.</p>
-      
+        <p>Here's a glimpse into my vibrant university life — from research and internships to clubs and travel
+          experiences.</p>
+
         <h3>🌟 Internship Experience</h3>
-        <p><strong>Media Data Analyst Intern</strong> — <em>Shenzhen Nanying Culture Media Co., Ltd.</em> (Jul 2022 – Sep 2022)</p>
+        <p><strong>Media Data Analyst Intern</strong> — <em>Shenzhen Nanying Culture Media Co., Ltd.</em> (Jul 2022 –
+          Sep 2022)</p>
         <ul>
-          <li>Collected and analyzed user engagement data across major media platforms using <strong>SQL</strong> and Excel.</li>
-          <li>Provided data visualizations and trend reports to support short video production strategies and audience targeting.</li>
-          <li>Participated in the planning and background research for the company’s original documentary, including the topic “Urban Development and Natural Resources in Pingshan District.”</li>
-          <li>Assisted the team in field interviews and compiled preliminary research documentation to support the film's production direction.</li>
+          <li>Collected and analyzed user engagement data across major media platforms using <strong>SQL</strong> and
+            Excel.</li>
+          <li>Provided data visualizations and trend reports to support short video production strategies and audience
+            targeting.</li>
+          <li>Participated in the planning and background research for the company’s original documentary, including the
+            topic “Urban Development and Natural Resources in Pingshan District.”</li>
+          <li>Assisted the team in field interviews and compiled preliminary research documentation to support the
+            film's production direction.</li>
         </ul>
-      
+
         <h3>🔬 Research Projects</h3>
         <p><strong>Undergraduate Researcher</strong> — <em>SCUPI Honors Research Program, Sichuan University</em></p>
         <ul>
           <li><strong>Modeling of Lung Respiratory Movement Based on 4DCT Images</strong> (Team of 3)
             <ul>
-              <li>Utilized Python, NumPy, and Open3D to reconstruct 3D point clouds of lung motion over time using 4DCT medical imaging data.</li>
-              <li>Segmented the lung region across all time frames, tracked key points on the lung surface, and analyzed movement using affine transformation models.</li>
-              <li>Produced a dynamic visualization of lung deformation to assist in radiotherapy planning for lung cancer patients.</li>
+              <li>Utilized Python, NumPy, and Open3D to reconstruct 3D point clouds of lung motion over time using 4DCT
+                medical imaging data.</li>
+              <li>Segmented the lung region across all time frames, tracked key points on the lung surface, and analyzed
+                movement using affine transformation models.</li>
+              <li>Produced a dynamic visualization of lung deformation to assist in radiotherapy planning for lung
+                cancer patients.</li>
             </ul>
           </li>
           <li><strong>Flexible Exoskeleton Evaluation and Simulation</strong> (Team of 4)
             <ul>
-              <li>Researched the design and mechanics of flexible wearable robotic exoskeletons to enhance mobility support for the elderly and patients.</li>
-              <li>Simulated movement assistance using simplified physical models and motion capture data, evaluating strength and energy efficiency.</li>
+              <li>Researched the design and mechanics of flexible wearable robotic exoskeletons to enhance mobility
+                support for the elderly and patients.</li>
+              <li>Simulated movement assistance using simplified physical models and motion capture data, evaluating
+                strength and energy efficiency.</li>
               <li>Contributed to the final research presentation and group report under faculty mentorship.</li>
             </ul>
           </li>
         </ul>
-      
+
         <h3>💬 Clubs and Campus Life</h3>
         <p>Outside the classroom, I enjoy a very active and balanced campus life:</p>
         <ul>
-          <li>Served as a <strong>class representative</strong>, assisting faculty with student communication and activity coordination.</li>
-          <li>Participated in the <strong>Debate Team</strong> and represented the school in regional competitions, improving my critical thinking and public speaking skills.</li>
-          <li>Joined the <strong>Dance Team</strong> and performed in multiple school events, while also actively training in the <strong>Badminton Team</strong>.</li>
+          <li>Served as a <strong>class representative</strong>, assisting faculty with student communication and
+            activity coordination.</li>
+          <li>Participated in the <strong>Debate Team</strong> and represented the school in regional competitions,
+            improving my critical thinking and public speaking skills.</li>
+          <li>Joined the <strong>Dance Team</strong> and performed in multiple school events, while also actively
+            training in the <strong>Badminton Team</strong>.</li>
         </ul>
-      
+
         <h3>✈️ Travel & Exploration</h3>
         <p>I’m passionate about exploring new environments. Some of my favorite travel moments include:</p>
         <ul>
@@ -288,8 +378,8 @@
           <li>Visiting natural parks and temples in Sichuan, hiking and photographing breathtaking scenery.</li>
         </ul>
       </section>
-      
-      
+
+
 
 
     </main>
