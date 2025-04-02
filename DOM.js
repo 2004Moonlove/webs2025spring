@@ -28,21 +28,21 @@ function create_DOM_inference() {
 function add_event_listener() {
     all_refer.addEventListener("click", update_all);
     about_refer.addEventListener("click", update_about);
-    // photo_refer.addEventListener("click",update);
+    photo_refer.addEventListener("click",update_photo);
     my_school_refer.addEventListener("click", update_school);
     // for the cards eventlistener
     HL_card_refer.addEventListener("click", update_HL_card);
     SCU_card_refer.addEventListener("click", update_SCU_card);
     upitt_card_refer.addEventListener("click", update_UPITT_card);
     //
-    my_life_refer.addEventListener("click", () => update_insurance());
+    my_life_refer.addEventListener("click", update_life);
 }
 
 function update_all() {
     below.style.display = "block";
     about_me.style.display = "none";
-    my_life_refer.style.display = "none";
-    photos.style.display = "none";
+    my_life_section.style.display = "none";
+    photos_sec.style.display = "none";
     My_school.style.display = "none";
 }
 
@@ -50,17 +50,32 @@ function update_about() {
     My_school.style.display = "none";
     below.style.display = "none";
     about_me.style.display = "block";
-    my_life_refer.style.display = "none";
-    photos.style.display = "none";
+    my_life_section.style.display = "none";
+    photos_sec.style.display = "none";
+}
+
+function update_photo(){
+    photos_sec.style.display = "block";
+    My_school.style.display = "none";
+    below.style.display = "none";
+    about_me.style.display = "none";
+    my_life_section.style.display = "none";
 }
 
 function update_school() {
     My_school.style.display = "block";
     below.style.display = "none";
     about_me.style.display = "none";
-    my_life_refer.style.display = "none";
-    photos.style.display = "none";
-    // detail_inf.style.display = "none";
+    my_life_section.style.display = "none";
+    photos_sec.style.display = "none";
+}
+
+function update_life(){
+    My_school.style.display = "none";
+    below.style.display = "none";
+    about_me.style.display = "none";
+    my_life_section.style.display = "block";
+    photos_sec.style.display = "none";
 }
 
 // for the cards
