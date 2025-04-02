@@ -37,18 +37,19 @@
     float: left;
     width: 40%;
     padding: 5px;
+    border-radius: 12px;
 }
 #横图加州{
     float: left;
     width: 55%;
     padding: 5px;
-
+    border-radius: 12px;
 }
 #横图滑雪{
     float: left;
     width: 55%;
     padding: 10px;
-
+    border-radius: 12px;
 }
 br{
     clear: both;
@@ -58,21 +59,18 @@ br{
     float: left;
     width: 55%;
     padding: 5px;
+    border-radius: 12px;
 }
 #left img{
     float: left;
     width: 100%;
     padding: 5px;
+    border-radius: 12px;
 }
-/* #树{
-    
-}
-#粉色{
-    
-} */
 #主持人{
     float: left;
     width: 35%;
+    border-radius: 12px;
     padding: 15px;
 }
 
@@ -118,8 +116,79 @@ br{
     clear:both;
 }
 
+#school_all{
+    clear: both;
+}
+
 /* about me */
 #about_me{
 clear: both;
 display: none;
 }
+
+/* myschool */
+#My_school{
+    clear: both;
+}
+.school-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .school-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .school-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .school-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .school-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .school-info {
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .school-card.active .school-info {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .school-card a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .school-card a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

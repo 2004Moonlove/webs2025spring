@@ -5,13 +5,11 @@ async function setup() {
     create_DOM_inference();
     add_event_listener();
 }
-function start(){
-    // about_me.style.display = "none";
-    // my_life_refer.style.display = "none";
-    // photos.style.display = "none";
-    // my_school_refer.style.display = "none";
-}
 
+function toggleInfo(card) {
+    card.classList.toggle("active");
+  }
+  
 function create_DOM_inference() {
     //for the bar type
     all_refer = document.getElementById("all");
