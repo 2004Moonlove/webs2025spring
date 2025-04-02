@@ -129,7 +129,9 @@ display: none;
 /* myschool */
 #My_school{
     clear: both;
+    display: none;
 }
+
 .school-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,19 +167,6 @@ display: none;
     color: #333;
   }
   
-  .school-info {
-    display: none;
-    margin-top: 10px;
-    text-align: left;
-    font-size: 14px;
-    color: #555;
-  }
-  
-  .school-card.active .school-info {
-    display: block;
-    animation: fadeIn 0.3s ease-in-out;
-  }
-  
   .school-card a {
     color: #0056b3;
     text-decoration: none;
@@ -189,6 +178,26 @@ display: none;
   
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
+    to { opacity: 1; transform: translateY(0); }}
+  
+ /* for the detailView */
+ .school_detail_box{
+    display: none;
+ }
+.school_detail_box .photo{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
   }
   
