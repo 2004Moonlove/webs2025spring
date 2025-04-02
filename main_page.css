@@ -83,7 +83,7 @@
   float: left;
   width: 55%;
   padding: 10px;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 br {
@@ -105,10 +105,14 @@ br {
 }
 
 #主持人 {
+  border-radius: 25px;
   float: left;
   width: 35%;
-  border-radius: 12px;
   padding: 15px;
+}
+
+img{
+  border-radius: 12px;
 }
 
 /* horizontal_bar */
