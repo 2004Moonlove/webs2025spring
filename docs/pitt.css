@@ -4,6 +4,8 @@ body {
     background-size: cover;
     margin: 0;
   }
+
+  $main-color: darkblue;
   
   .school-content {
     padding: 40px;
@@ -20,9 +22,9 @@ body {
     border-radius: 10px;
     margin-top: 20px;
   }
-  
+
   .school-content a {
-    color: darkblue;
+    color: $main-color;
     font-weight: bold;
     text-decoration: underline;
   }
