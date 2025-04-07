@@ -5,8 +5,10 @@ body {
     margin: 0;
   }
 
-  $main-color: darkblue;
-  
+  :root {
+    --main-color: darkblue;
+  }
+
   .school-content {
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -24,7 +26,7 @@ body {
   }
 
   .school-content a {
-    color: $main-color;
+    color: var(--main-color);
     font-weight: bold;
     text-decoration: underline;
   }
