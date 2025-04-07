@@ -18,11 +18,31 @@ In the My School part under “My Life,” I will show my academic journey from 
 
 The layout is designed to be clear and simple, while still expressing my creativity and personality. This website serves as a self-introduction and a creative portfolio of my student life.
 
-| need  | solution |    |
-|------|----|------|
-| photo  | my photo |  |
-| tiltle  | a picture others help me to paint |  |
-| information  | my informations |  |
+| Title | Author | Source | License (TASL) |
+|------|----|------|------|
+|  Cathy | Karthik Pansetty | Unsplash | Photo by <a href="https://unsplash.com/@karthikpansetty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karthik Pansetty</a> on <a href="https://unsplash.com/photos/a-very-tall-building-with-a-clock-tower-in-the-background-yv6PT5t-fDk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> |
+| uPittsburgh  | Karthik Pansetty | Unsplash | Photo by <a href="https://unsplash.com/@connorgan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Connor Gan</a> on <a href="https://unsplash.com/photos/brown-concrete-building-HQmLRN-cxaQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> |
+| edb754511cf8bdb395ae262d6b0633e  | me | photo taken  by myself |  |
+| HL | me | photo taken by myself |  |
+| SICHuan | me | photo taken by myself |  |
+| upitt | me | photo taken by myself |  |
+| 主持人 | me | photo taken by myself |  |
+| 大教堂 | me | photo taken by myself |  |
+| 大梅沙 | me | photo taken by myself |  |
+| 山顶 | me | photo taken by myself |  |
+| 树 | me | photo taken by myself |  |
+| 横图加州 | me | photo taken by myself |  |
+| 横图滑雪 | me | photo taken by myself |  |
+| 海洋馆 | me | photo taken by myself |  |
+| 滑雪 | me | photo taken by myself |  |
+| 爱心 | me | photo taken by myself |  |
+| 生活照 | me | photo taken by myself |  |
+| 粉色 | me | photo taken by myself |  |
+| 红岭 | me | photo taken by myself |  |
+| 长图 | me | photo taken by myself |  |
+| 骑车 | me | photo taken by myself |  |
+| 龙头 | me | photo taken by myself |  |
+
 
 Photo by <a href="https://unsplash.com/@connorgan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Connor Gan</a> on <a href="https://unsplash.com/photos/brown-concrete-building-HQmLRN-cxaQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>  
 
