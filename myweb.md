@@ -13,6 +13,7 @@ On the top side of the page, there will be a vertical navigation bar that guides
 - The intro part is a breif summary of the later different parts.
 - The About Me section will introduce who I am, my background, and my personality.
 - The experience part is about my previous working experience and research experience as well as other aspect of me.
+- The my school part is an introduction of the school from my high school to university, where you can also reach the official website of them and get more detailed information of them.
 - The Photos section will showcase some of my daily moments, travel memories, and fun snapshots with friends.
 
 In the My School part, I will show my academic journey from high school to college, including names of my schools and visual elements that help tell my story. In this section, you can find different school with dofferent cards where you can click and get in to the detailed information of the school you click to know more about it.
